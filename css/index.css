@@ -36,3 +36,20 @@ header .mission .mission-title {
 header .mission p {
   font-family: kanit;
 }
+.main-content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.main-content .main-content-title {
+  font-size: 30px;
+  font-family: lobster;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.main-content .main {
+  border: 2px solid black;
+  margin: 1rem 0 1rem 0;
+  padding: 1rem;
+}
