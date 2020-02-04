@@ -9,6 +9,7 @@ header nav a {
   text-decoration: none;
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
+  font-family: kanit;
 }
 header nav .logo {
   font-family: lobster;
@@ -21,4 +22,17 @@ header .travel-video {
   border-radius: 2rem;
   height: 14rem;
   width: 100%;
+}
+header .mission {
+  margin-top: 2rem;
+  border-bottom: 2px solid black;
+}
+header .mission .mission-title {
+  margin: 0 auto;
+  text-align: center;
+  font-family: lobster;
+  font-size: 40px;
+}
+header .mission p {
+  font-family: kanit;
 }
