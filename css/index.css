@@ -16,3 +16,9 @@ header nav .logo {
   border-bottom: 2px solid black;
   padding-bottom: 2.5rem;
 }
+header .travel-video {
+  border: 2px solid black;
+  border-radius: 2rem;
+  height: 14rem;
+  width: 100%;
+}
