@@ -1,17 +1,29 @@
 header {
   nav {
-      a{
-          border-bottom: @bbb;
-          text-decoration: none;
-          margin-bottom: 1.5rem;
-          padding-bottom: 1.5rem;
-          font-family: kanit;
-      }
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    a {
+      border-bottom: @bbb;
+      text-decoration: none;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      font-family: kanit;
       
+    }
+    a:nth-child(2){
+      color: @lightgreen;
+  }
+  a:nth-child(3){
+      color: @lightturqoise;
+  }
+  a:nth-child(4){
+      color: @lightred;
+  }
+  a:nth-child(5){
+      color: @lightblue;
+  }
     .logo {
       font-family: @wanderlust;
       font-size: 40px;
@@ -19,23 +31,23 @@ header {
       padding-bottom: 2.5rem;
     }
   }
-  .travel-video{
-      border: @bbb;
-      border-radius: 2rem;
-      height: 14rem;
-      width: 100%;
+  .travel-video {
+    border: @bbb;
+    border-radius: 2rem;
+    height: 14rem;
+    width: 100%;
   }
-  .mission{
-      margin-top: 2rem;
-      border-bottom: @bbb;
-      .mission-title{
-          margin: 0 auto;
-          text-align: center;
-          font-family: @wanderlust;
-          font-size: 40px;
-      }
-      p{
-        font-family: kanit;
-      }
+  .mission {
+    margin-top: 2rem;
+    border-bottom: @bbb;
+    .mission-title {
+      margin: 0 auto;
+      text-align: center;
+      font-family: @wanderlust;
+      font-size: 40px;
+    }
+    p {
+      font-family: kanit;
+    }
   }
 }
