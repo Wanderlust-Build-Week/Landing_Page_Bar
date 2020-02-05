@@ -4,13 +4,20 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    @media only screen and(min-width:800px){
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+  }
     a {
       border-bottom: @bbb;
       text-decoration: none;
       margin-bottom: 1.5rem;
       padding-bottom: 1.5rem;
       font-family: kanit;
-      
+      @media only screen and(min-width:800px){
+        border-bottom: none;
+    }
     }
     a:nth-child(2){
       color: @lightgreen;
@@ -29,12 +36,14 @@ header {
       font-size: 40px;
       border-bottom: @bbb;
       padding-bottom: 2.5rem;
+      @media only screen and(min-width:800px){
+       border-bottom: none; 
+      }
     }
   }
   .travel-video {
     border: @bbb;
     border-radius: 2rem;
-    height: 14rem;
     width: 100%;
   }
   .mission {
@@ -48,6 +57,7 @@ header {
     }
     p {
       font-family: kanit;
+      text-align: center;
     }
   }
 }

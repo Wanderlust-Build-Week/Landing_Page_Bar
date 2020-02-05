@@ -4,12 +4,24 @@ header nav {
   justify-content: center;
   text-align: center;
 }
+@media only screen and (min-width: 800px) {
+  header nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
 header nav a {
   border-bottom: 2px solid black;
   text-decoration: none;
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
   font-family: kanit;
+}
+@media only screen and (min-width: 800px) {
+  header nav a {
+    border-bottom: none;
+  }
 }
 header nav a:nth-child(2) {
   color: lightgreen;
@@ -29,10 +41,14 @@ header nav .logo {
   border-bottom: 2px solid black;
   padding-bottom: 2.5rem;
 }
+@media only screen and (min-width: 800px) {
+  header nav .logo {
+    border-bottom: none;
+  }
+}
 header .travel-video {
   border: 2px solid black;
   border-radius: 2rem;
-  height: 14rem;
   width: 100%;
 }
 header .mission {
@@ -47,6 +63,7 @@ header .mission .mission-title {
 }
 header .mission p {
   font-family: kanit;
+  text-align: center;
 }
 .main-content {
   margin-top: 2rem;
@@ -61,6 +78,11 @@ header .mission p {
   text-align: center;
   margin-bottom: 3rem;
 }
+@media only screen and (min-width: 800px) {
+  .main-content .main-content-title {
+    margin-top: 1.5rem;
+  }
+}
 .main-content .main {
   border: 2px solid black;
   border-radius: 2rem;
@@ -69,6 +91,10 @@ header .mission p {
 }
 .main-content .main p {
   font-family: kanit;
+}
+.main-content .main .main-photo {
+  width: 100%;
+  border: 2px solid black;
 }
 footer {
   margin: 0 auto;
