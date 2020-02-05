@@ -1,8 +1,41 @@
+// .main-content {
+//   margin-top: 2rem;
+//   margin-bottom: 2rem;
+//   display: flex;
+//   flex-direction: column;
+//   .main-content-title {
+//     font-size: 30px;
+//     font-family: @wanderlust;
+//     margin: 0 auto;
+//     text-align: center;
+//     margin-bottom: 3rem;
+//     @media only screen and(min-width:800px){
+//      margin-top: 1.5rem;   
+//     }
+//   }
+//   .cards{
+//     @media only screen and(min-width:1200px){
+//         flex-direction: row;
+//         flex-wrap: nowrap;
+//      }
+//   .main {
+//     border: @bbb;
+//     border-radius: 2rem;
+//     margin: 1rem 0 1rem 0;
+//     padding: 1rem;
+//     p {
+//       font-family: kanit;
+//     }
+//     .main-photo{
+//       width:100%;
+//       border: @bbb
+//     }
+//   }
+// }
+// }
+
+
 .main-content {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
   .main-content-title {
     font-size: 30px;
     font-family: @wanderlust;
@@ -13,11 +46,17 @@
      margin-top: 1.5rem;   
     }
   }
+  .cards{
+    @media only screen and(min-width:1200px){
+      display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+     }
   .main {
     border: @bbb;
     border-radius: 2rem;
-    margin: 1rem 0 1rem 0;
-    padding: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
     p {
       font-family: kanit;
     }
@@ -27,3 +66,5 @@
     }
   }
 }
+}
+
