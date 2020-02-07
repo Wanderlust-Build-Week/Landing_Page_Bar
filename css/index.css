@@ -128,7 +128,12 @@ footer .copyright {
 .card-box {
   display: flex;
   flex-direction: column;
-  width: 100%;
+}
+@media only screen and (min-width: 1200px) {
+  .card-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 .card-box .about-card {
   border: 2px solid black;
@@ -138,4 +143,11 @@ footer .copyright {
   font-size: 1.5rem;
   text-align: center;
   font-family: kanit;
+}
+@media only screen and (min-width: 1200px) {
+  .card-box .about-card {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
 }

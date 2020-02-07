@@ -1,7 +1,10 @@
 .card-box{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    @media only screen and(min-width:1200px){
+        flex-direction: row;
+        flex-wrap: wrap;
+       }
     .about-card{
         border: @bbb;
         padding: 5rem 10rem 5rem 10rem;
@@ -10,5 +13,10 @@
         font-size: 1.5rem;
         text-align: center;
         font-family: kanit;
+        @media only screen and(min-width:1200px){
+        width: 50%;    
+        margin: 0 auto;
+        margin-top: 1rem;
+           }
     }
 }
